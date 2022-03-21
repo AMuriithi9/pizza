@@ -5,19 +5,91 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>pizza project</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-  <a href="#" class="logo"><i src="../pizza/images/download (1).jpeg" class="pizzaicon"></i>food<f/a>
-    <nav class="navbar">
-      <a href="#home">home</a>
-      <a href="#speciality">speciality</a>
-      <a href="#popular">popular</a>
-      <a href="#gallery">gallery</a>
-      <a href="#review">review</a>
-      <a href="#order">order</a>
+<div class="pizza">
+  <nav>
+    <img src="images/download.jpeg" class="menu-image">
+    <img src="images/download (1).jpeg" class="logo">
+    <ul>
+      <li><a href=""></a>home</li>
+      <li><a href=""></a>menu</li>
+      <li><a href=""></a>online order</li>
+      <li><a href=""></a>contact</li>
+      </ul>
+      <button type="button">click to order</button>
+  </nav>
+<div class="crispy">
+<h1>crispy</h1>
+<p>Available in in crispy crust</p>
+<a href="">small</a>
+</div>
 
-    </nav>
-</header>
+
+<div class="stuffed">
+  <h1>stuffed</h1>
+  <p>Available in stuffed crust</p>
+</div>
+
+
+<div class="glutenfree">
+  <h1>Gluten Free</h1>
+  <p>Available in glutenfree crust</p>
+  
+</div>
+
+
+<div class="toppings">
+  <select name="toppings" id="toppings">
+    <h1>Select your toppings</h1>
+    <option value="Pepperoni">Pepperoni</option>
+    <option value="Mushroom">Mushroom</option>
+    <option value="Extracheese">Extra cheese</option>
+    <option value="Sausage">Sausage</option>
+    <option value="Onion">Onion</option>
+    <option value="Blackolives">Black olives</option>
+    <option value="Freshgarlic">Fresh garlic</option>
+    <option value="Tomato">Tomato</option>
+    <option value="Freshbasil">Fresh basil</option>
+    <option value="pineapple">pineapple</option>
+
+  </select>
+</div>
+
+<div class="selector">
+  <label for="pizzasize">Choose your pizza:</label>
+
+<select name="pizza" id="pizza">
+  <option value="crispysmall">crispy-small</option>
+  <option value="crispymedium">crispy-medium</option>
+  <option value="crispysmall">crispy-large</option>
+  <option value="stuffedsmall">stuffed-small</option>
+  <option value="stuffedsmall">stuffed-medium</option>
+  <option value="stuffedsmall">stuffed-large</option>
+  <option value="glutenfreesmall">glutenfree-small</option>
+  <option value="glutenfreemall">glutenfree-medium</option>
+  <option value="glutenfreelarge">glutenfree-large</option>
+  
+</select>
+</div>
+ <div class="form">
+   <form action="JavaScript/pizza.js" name="form" id="form"></form>
+   <label for="name">Enter your first name name</label>
+  <input type="text" id="firstname" placeholder="first name">
+  <label for="name">Enter your last name</label>
+  <input type="text" id="lastname" placeholder="last name">
+  <label for="email">Enter your email</label>
+  <input type="email" id="email" placeholder="email">
+  <label for="number">Enter your phone number</label>
+  <input type="number" id="number" placeholder="number">
+  <label for="address">Enter your address</label>
+  <input type="text" id="address" placeholder="address">
+  <button type="submit" id="submit">Submit</button>
+</div>
+
+</div>
+
+
 </body>
 </html>
