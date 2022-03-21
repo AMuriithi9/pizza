@@ -18,7 +18,7 @@
       <li><a href=""></a>online order</li>
       <li><a href=""></a>contact</li>
       </ul>
-      <button type="button">click to order</button>
+      <button type="button" id="order">click to order</button>
   </nav>
 <div class="crispy">
 <h1>crispy</h1>
@@ -43,33 +43,28 @@
 <div class="toppings">
   <select name="toppings" id="toppings">
     <h1>Select your toppings</h1>
-    <option value="Pepperoni">Pepperoni</option>
-    <option value="Mushroom">Mushroom</option>
-    <option value="Extracheese">Extra cheese</option>
-    <option value="Sausage">Sausage</option>
-    <option value="Onion">Onion</option>
-    <option value="Blackolives">Black olives</option>
-    <option value="Freshgarlic">Fresh garlic</option>
-    <option value="Tomato">Tomato</option>
-    <option value="Freshbasil">Fresh basil</option>
-    <option value="pineapple">pineapple</option>
+    <option value="Pepperoni" id="Pepperoni">Pepperoni</option>
+    <option value="Mushroom" id="Mushroom">Mushroom</option>
+    <option value="Extracheese" id="Extracheese">Extra cheese</option>
+    <option value="Sausage" id="Sausage">Sausage</option>
+    <option value="pineapple" id="pineapple">pineapple</option>
 
   </select>
 </div>
 
-<div class="selector">
+<div class="selector" id="selector">
   <label for="pizzasize">Choose your pizza:</label>
 
 <select name="pizza" id="pizza">
-  <option value="crispysmall">crispy-small</option>
-  <option value="crispymedium">crispy-medium</option>
-  <option value="crispysmall">crispy-large</option>
-  <option value="stuffedsmall">stuffed-small</option>
-  <option value="stuffedsmall">stuffed-medium</option>
-  <option value="stuffedsmall">stuffed-large</option>
-  <option value="glutenfreesmall">glutenfree-small</option>
-  <option value="glutenfreemall">glutenfree-medium</option>
-  <option value="glutenfreelarge">glutenfree-large</option>
+  <option value="crispysmall" id="crispysmall">crispy-small</option>
+  <option value="crispymedium" id="crispymedium">crispy-medium</option>
+  <option value="crispylarge" id="crispylarge">crispy-large</option>
+  <option value="stuffedsmall" id="stuffedsmall">stuffed-small</option>
+  <option value="stuffedmedium" id="stuffedmedium">stuffed-medium</option>
+  <option value="stuffedlarge" id="stuffedlarge">stuffed-large</option>
+  <option value="glutenfreesmall" id="glutenfreesmall">glutenfree-small</option>
+  <option value="glutenfreemedium" id="glutenfreemedium">glutenfree-medium</option>
+  <option value="glutenfreelarge" id="glutenfreelarge">glutenfree-large</option>
   
 </select>
 </div>
@@ -90,6 +85,6 @@
 
 </div>
 
-
+<script src="../pizza/JavaScript/pizza.js"></script>
 </body>
 </html>
