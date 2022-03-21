@@ -8,34 +8,36 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="pizza">
-  <nav>
-    <img src="images/download.jpeg" class="menu-image">
-    <img src="images/download (1).jpeg" class="logo">
-    <ul>
-      <li><a href=""></a>home</li>
-      <li><a href=""></a>menu</li>
-      <li><a href=""></a>online order</li>
-      <li><a href=""></a>contact</li>
+  <div class="pizza">
+   <nav>
+     <img src="images/download.jpeg" class="menu-image">
+     <img src="images/download (1).jpeg" class="logo">
+      <ul>
+        <li><a href=""></a>home</li>
+        <li><a href=""></a>menu</li>
+        <li><a href=""></a>online order</li>
+        <li><a href=""></a>contact</li>
       </ul>
-      <button type="button" id="order">click to order</button>
-  </nav>
+    </nav>
+  </div>
+
+
+
 <div class="crispy">
-<h1>crispy</h1>
-<p>Available in in crispy crust</p>
-<a href="">small</a>
+  <h1>crispy</h1>
+    <p>Available in in crispy crust</p>
 </div>
 
 
 <div class="stuffed">
   <h1>stuffed</h1>
-  <p>Available in stuffed crust</p>
+    <p>Available in stuffed crust</p>
 </div>
 
 
 <div class="glutenfree">
   <h1>Gluten Free</h1>
-  <p>Available in glutenfree crust</p>
+    <p>Available in glutenfree crust</p>
   
 </div>
 
@@ -43,11 +45,11 @@
 <div class="toppings">
   <select name="toppings" id="toppings">
     <h1>Select your toppings</h1>
-    <option value="Pepperoni" id="Pepperoni">Pepperoni</option>
-    <option value="Mushroom" id="Mushroom">Mushroom</option>
-    <option value="Extracheese" id="Extracheese">Extra cheese</option>
-    <option value="Sausage" id="Sausage">Sausage</option>
-    <option value="pineapple" id="pineapple">pineapple</option>
+      <option value="Pepperoni" id="Pepperoni">Pepperoni</option>
+      <option value="Mushroom" id="Mushroom">Mushroom</option>
+      <option value="Extracheese" id="Extracheese">Extra cheese</option>
+      <option value="Sausage" id="Sausage">Sausage</option>
+      <option value="pineapple" id="pineapple">pineapple</option>
 
   </select>
 </div>
@@ -55,36 +57,40 @@
 <div class="selector" id="selector">
   <label for="pizzasize">Choose your pizza:</label>
 
-<select name="pizza" id="pizza">
-  <option value="crispysmall" id="crispysmall">crispy-small</option>
-  <option value="crispymedium" id="crispymedium">crispy-medium</option>
-  <option value="crispylarge" id="crispylarge">crispy-large</option>
-  <option value="stuffedsmall" id="stuffedsmall">stuffed-small</option>
-  <option value="stuffedmedium" id="stuffedmedium">stuffed-medium</option>
-  <option value="stuffedlarge" id="stuffedlarge">stuffed-large</option>
-  <option value="glutenfreesmall" id="glutenfreesmall">glutenfree-small</option>
-  <option value="glutenfreemedium" id="glutenfreemedium">glutenfree-medium</option>
-  <option value="glutenfreelarge" id="glutenfreelarge">glutenfree-large</option>
-  
-</select>
-</div>
- <div class="form">
-   <form action="JavaScript/pizza.js" name="form" id="form"></form>
-   <label for="name">Enter your first name name</label>
-  <input type="text" id="firstname" placeholder="first name">
-  <label for="name">Enter your last name</label>
-  <input type="text" id="lastname" placeholder="last name">
-  <label for="email">Enter your email</label>
-  <input type="email" id="email" placeholder="email">
-  <label for="number">Enter your phone number</label>
-  <input type="number" id="number" placeholder="number">
-  <label for="address">Enter your address</label>
-  <input type="text" id="address" placeholder="address">
-  <button type="submit" id="submit">Submit</button>
+  <select name="pizza" id="pizza">
+    <option value="crispysmall" id="crispysmall">crispy-small</option>
+    <option value="crispymedium" id="crispymedium">crispy-medium</option>
+    <option value="crispylarge" id="crispylarge">crispy-large</option>
+    <option value="stuffedsmall" id="stuffedsmall">stuffed-small</option>
+    <option value="stuffedmedium" id="stuffedmedium">stuffed-medium</option>
+    <option value="stuffedlarge" id="stuffedlarge">stuffed-large</option>
+    <option value="glutenfreesmall" id="glutenfreesmall">glutenfree-small</option>
+    <option value="glutenfreemedium" id="glutenfreemedium">glutenfree-medium</option>
+    <option value="glutenfreelarge" id="glutenfreelarge">glutenfree-large</option>
+  </select>
+
+<div class="click order">
+   <button type="button" id="order">click to order</button>
 </div>
 
 </div>
+    <h1>Fill the form for delivery</h1>
+  <div class="form">
+    <form action="JavaScript/pizza.js" name="form" id="form"></form>
+    <label for="name">Enter your first name name</label>
+    <input type="text" id="firstname" placeholder="first name">
+    <label for="name">Enter your last name</label>
+    <input type="text" id="lastname" placeholder="last name">
+    <label for="email">Enter your email</label>
+    <input type="email" id="email" placeholder="email">
+    <label for="number">Enter your phone number</label>
+    <input type="number" id="number" placeholder="number">
+    <label for="address">Enter your address</label>
+    <input type="text" id="address" placeholder="address">
+    <button type="submit" id="submit">Submit</button>
+  </div>
 
-<script src="../pizza/JavaScript/pizza.js"></script>
+
+  <script src="JavaScript/pizza.js"></script>
 </body>
 </html>

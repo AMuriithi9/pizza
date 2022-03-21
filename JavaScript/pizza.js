@@ -22,3 +22,15 @@ let email = document.getElementById("email");
 let number = document.getElementById("number");
 let address = document.getElementById("address");
 let submit = document.getElementById("submit");
+
+order.addEventListener("click", ()=>{
+alert("hello");
+});
+
+
+function select(){
+  document.getElementById("selector")
+prompt("choose your pizza")
+}
+  
+
